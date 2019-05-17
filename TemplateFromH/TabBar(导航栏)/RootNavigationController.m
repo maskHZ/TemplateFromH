@@ -61,10 +61,13 @@
     // 设置背景色
     navBar.barTintColor =  [UIColor colorWithHexString:JThemeColor];
     
+    // 设置左右按钮颜色
+    navBar.tintColor = [UIColor blackColor];
+    
     // 设置导航栏标题颜色
     NSMutableDictionary *textAttributes = [NSMutableDictionary dictionary];
     
-    textAttributes[NSForegroundColorAttributeName] = [UIColor blackColor];// 标题颜色
+    textAttributes[NSForegroundColorAttributeName] = [UIColor whiteColor];// 标题颜色
     
     textAttributes[NSFontAttributeName] = [UIFont systemFontOfSize:AutoFitCG(20)];
     

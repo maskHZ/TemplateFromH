@@ -18,6 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    btn.layer.masksToBounds = YES;
+    btn.backgroundColor = [UIColor colorWithHex:JThemeColor];
+    btn.layer.cornerRadius = AutoFitCG(25);
+    [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
+    [btn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.center.mas_equalTo(self.view);
+        make.size.mas_equalTo(CGSizeMake(AutoFitCG(50), AutoFitCG(50)));
+    }];
+    
     // Do any additional setup after loading the view.
 }
 -(void)btnClick{

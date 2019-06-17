@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "RootTabBarController.h"
+#import "WSMovieController.h"
 
 @interface AppDelegate ()
 
@@ -23,9 +23,9 @@
     
     self.window.backgroundColor = [UIColor whiteColor];
     
-    RootTabBarController *rootTabBar = [[RootTabBarController alloc] init];
-    
-    self.window.rootViewController = rootTabBar;
+    WSMovieController *wsCtrl = [[WSMovieController alloc]init];
+    wsCtrl.movieURL = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"qidong"ofType:@"mp4"]];//选择本地的视屏
+    self.window.rootViewController = wsCtrl;
     
     [self.window makeKeyAndVisible];
     

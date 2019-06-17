@@ -8,6 +8,7 @@
 
 #import "EverViewController.h"
 #import "DetailViewController.h"
+#import "AccountLoginManager.h"
 
 @interface EverViewController ()
 
@@ -17,6 +18,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    // 显示登录框
+    [AccountLoginManager showLoginView];
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.layer.masksToBounds = YES;

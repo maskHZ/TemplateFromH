@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -26,8 +26,50 @@
 		4D073300228E4736008DCADC /* NSNumber+AutoFit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0732FF228E4736008DCADC /* NSNumber+AutoFit.m */; };
 		4D073303228E5B47008DCADC /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D073302228E5B47008DCADC /* CustomTabBar.m */; };
 		4D073307228E651A008DCADC /* UIView+Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D073306228E651A008DCADC /* UIView+Location.m */; };
+		4DBBA1032293F7760061742C /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA1022293F7760061742C /* LoginView.m */; };
+		4DBBA1062293F89A0061742C /* AccountLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA1052293F89A0061742C /* AccountLoginManager.m */; };
+		4DBBA10D229692840061742C /* WSMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA10A229692830061742C /* WSMovieController.m */; };
+		4DBBA10E229692840061742C /* qidong.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4DBBA10B229692830061742C /* qidong.mp4 */; };
+		4DBBA110229692D30061742C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBBA10F229692D30061742C /* MediaPlayer.framework */; };
+		4DBBA13022969B7F0061742C /* TBCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA11322969B7F0061742C /* TBCalendar.swift */; };
+		4DBBA13122969B7F0061742C /* Foundation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA11422969B7F0061742C /* Foundation+Extension.swift */; };
+		4DBBA13222969B7F0061742C /* TBCalendarDateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA11522969B7F0061742C /* TBCalendarDateCell.swift */; };
+		4DBBA13322969B7F0061742C /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA11622969B7F0061742C /* Const.swift */; };
+		4DBBA13422969B7F0061742C /* TBCalendarAppearStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA11722969B7F0061742C /* TBCalendarAppearStyle.swift */; };
+		4DBBA13522969B7F0061742C /* TBCalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA11822969B7F0061742C /* TBCalendarHeaderView.swift */; };
+		4DBBA13622969B7F0061742C /* MyNSString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA11A22969B7F0061742C /* MyNSString.swift */; };
+		4DBBA13722969B7F0061742C /* PopTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA11B22969B7F0061742C /* PopTextView.swift */; };
+		4DBBA13822969B7F0061742C /* PopRadioButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA11C22969B7F0061742C /* PopRadioButtonView.swift */; };
+		4DBBA13922969B7F0061742C /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA11D22969B7F0061742C /* SlideView.swift */; };
+		4DBBA13A22969B7F0061742C /* ZHFCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA11E22969B7F0061742C /* ZHFCalendarView.swift */; };
+		4DBBA13B22969B7F0061742C /* UpDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA11F22969B7F0061742C /* UpDownView.swift */; };
+		4DBBA13C22969B7F0061742C /* PopTopOrBottomOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12022969B7F0061742C /* PopTopOrBottomOutView.swift */; };
+		4DBBA13D22969B7F0061742C /* ZHFColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12122969B7F0061742C /* ZHFColor.swift */; };
+		4DBBA13E22969B7F0061742C /* PopImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12222969B7F0061742C /* PopImageView.swift */; };
+		4DBBA13F22969B7F0061742C /* PopBackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12422969B7F0061742C /* PopBackGroundView.swift */; };
+		4DBBA14022969B7F0061742C /* open_boxA.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4DBBA12522969B7F0061742C /* open_boxA.gif */; };
+		4DBBA14122969B7F0061742C /* OpenBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12622969B7F0061742C /* OpenBoxView.swift */; };
+		4DBBA14222969B7F0061742C /* PopAwayOpenBackGroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12722969B7F0061742C /* PopAwayOpenBackGroundView.swift */; };
+		4DBBA14322969B7F0061742C /* PopDiseaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12822969B7F0061742C /* PopDiseaseView.swift */; };
+		4DBBA14422969B7F0061742C /* SlideWhiteViewSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12922969B7F0061742C /* SlideWhiteViewSubView.swift */; };
+		4DBBA14522969B7F0061742C /* PopSmallChangeBigFatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12A22969B7F0061742C /* PopSmallChangeBigFatherView.swift */; };
+		4DBBA14622969B7F0061742C /* PopSomeColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12B22969B7F0061742C /* PopSomeColorView.swift */; };
+		4DBBA14722969B7F0061742C /* ZHFAlertControllerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12C22969B7F0061742C /* ZHFAlertControllerTool.swift */; };
+		4DBBA14822969B7F0061742C /* PopCheckboxButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12D22969B7F0061742C /* PopCheckboxButtonView.swift */; };
+		4DBBA14922969B7F0061742C /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12E22969B7F0061742C /* CalendarView.swift */; };
+		4DBBA14A22969B7F0061742C /* PopProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBBA12F22969B7F0061742C /* PopProgressBar.swift */; };
 		4DD8F640228EA09300FB8DE7 /* NSString+Judge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8F63F228EA09300FB8DE7 /* NSString+Judge.m */; };
 		4DD8F645228EA7D200FB8DE7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8F644228EA7D200FB8DE7 /* DetailViewController.m */; };
+		4DD8F64A2292578600FB8DE7 /* JHScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8F6492292578600FB8DE7 /* JHScrollView.m */; };
+		4DD8F64D2292583700FB8DE7 /* JHScrollViewFlowLayou.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8F64C2292583700FB8DE7 /* JHScrollViewFlowLayou.m */; };
+		4DD8F6502292588900FB8DE7 /* JHCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8F64F2292588900FB8DE7 /* JHCollectionViewCell.m */; };
+		4DD8F65622925BE500FB8DE7 /* UIImage+CaptureScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8F65522925BE500FB8DE7 /* UIImage+CaptureScreen.m */; };
+		4DD8F66322925D4300FB8DE7 /* ZYBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8F65A22925D4300FB8DE7 /* ZYBundle.bundle */; };
+		4DD8F66422925D4300FB8DE7 /* ZYImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8F65E22925D4300FB8DE7 /* ZYImagePicker.m */; };
+		4DD8F66522925D4300FB8DE7 /* UIImagePickerController+ZY.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8F65F22925D4300FB8DE7 /* UIImagePickerController+ZY.m */; };
+		4DD8F66622925D4300FB8DE7 /* ZYFormData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8F66022925D4300FB8DE7 /* ZYFormData.m */; };
+		4DD8F66722925D4300FB8DE7 /* ZYCropImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8F66122925D4300FB8DE7 /* ZYCropImageController.m */; };
+		4DD8F66822925D4300FB8DE7 /* ZYLocalizableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD8F66222925D4300FB8DE7 /* ZYLocalizableManager.m */; };
 		4E0B71926C460FC6112DDE0A /* libPods-TemplateFromH.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E76724EFC6D1473A87BAFE11 /* libPods-TemplateFromH.a */; };
 /* End PBXBuildFile section */
 
@@ -89,10 +131,65 @@
 		4D073302228E5B47008DCADC /* CustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
 		4D073305228E651A008DCADC /* UIView+Location.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Location.h"; sourceTree = "<group>"; };
 		4D073306228E651A008DCADC /* UIView+Location.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Location.m"; sourceTree = "<group>"; };
+		4DBBA1012293F7760061742C /* LoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		4DBBA1022293F7760061742C /* LoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		4DBBA1042293F89A0061742C /* AccountLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountLoginManager.h; sourceTree = "<group>"; };
+		4DBBA1052293F89A0061742C /* AccountLoginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountLoginManager.m; sourceTree = "<group>"; };
+		4DBBA10A229692830061742C /* WSMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMovieController.m; sourceTree = "<group>"; };
+		4DBBA10B229692830061742C /* qidong.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = qidong.mp4; sourceTree = "<group>"; };
+		4DBBA10C229692840061742C /* WSMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMovieController.h; sourceTree = "<group>"; };
+		4DBBA10F229692D30061742C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4DBBA11322969B7F0061742C /* TBCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBCalendar.swift; sourceTree = "<group>"; };
+		4DBBA11422969B7F0061742C /* Foundation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Foundation+Extension.swift"; sourceTree = "<group>"; };
+		4DBBA11522969B7F0061742C /* TBCalendarDateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBCalendarDateCell.swift; sourceTree = "<group>"; };
+		4DBBA11622969B7F0061742C /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		4DBBA11722969B7F0061742C /* TBCalendarAppearStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBCalendarAppearStyle.swift; sourceTree = "<group>"; };
+		4DBBA11822969B7F0061742C /* TBCalendarHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBCalendarHeaderView.swift; sourceTree = "<group>"; };
+		4DBBA11A22969B7F0061742C /* MyNSString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNSString.swift; sourceTree = "<group>"; };
+		4DBBA11B22969B7F0061742C /* PopTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopTextView.swift; sourceTree = "<group>"; };
+		4DBBA11C22969B7F0061742C /* PopRadioButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopRadioButtonView.swift; sourceTree = "<group>"; };
+		4DBBA11D22969B7F0061742C /* SlideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
+		4DBBA11E22969B7F0061742C /* ZHFCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHFCalendarView.swift; sourceTree = "<group>"; };
+		4DBBA11F22969B7F0061742C /* UpDownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpDownView.swift; sourceTree = "<group>"; };
+		4DBBA12022969B7F0061742C /* PopTopOrBottomOutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopTopOrBottomOutView.swift; sourceTree = "<group>"; };
+		4DBBA12122969B7F0061742C /* ZHFColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHFColor.swift; sourceTree = "<group>"; };
+		4DBBA12222969B7F0061742C /* PopImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopImageView.swift; sourceTree = "<group>"; };
+		4DBBA12422969B7F0061742C /* PopBackGroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopBackGroundView.swift; sourceTree = "<group>"; };
+		4DBBA12522969B7F0061742C /* open_boxA.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = open_boxA.gif; sourceTree = "<group>"; };
+		4DBBA12622969B7F0061742C /* OpenBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBoxView.swift; sourceTree = "<group>"; };
+		4DBBA12722969B7F0061742C /* PopAwayOpenBackGroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAwayOpenBackGroundView.swift; sourceTree = "<group>"; };
+		4DBBA12822969B7F0061742C /* PopDiseaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopDiseaseView.swift; sourceTree = "<group>"; };
+		4DBBA12922969B7F0061742C /* SlideWhiteViewSubView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideWhiteViewSubView.swift; sourceTree = "<group>"; };
+		4DBBA12A22969B7F0061742C /* PopSmallChangeBigFatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopSmallChangeBigFatherView.swift; sourceTree = "<group>"; };
+		4DBBA12B22969B7F0061742C /* PopSomeColorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopSomeColorView.swift; sourceTree = "<group>"; };
+		4DBBA12C22969B7F0061742C /* ZHFAlertControllerTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHFAlertControllerTool.swift; sourceTree = "<group>"; };
+		4DBBA12D22969B7F0061742C /* PopCheckboxButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopCheckboxButtonView.swift; sourceTree = "<group>"; };
+		4DBBA12E22969B7F0061742C /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		4DBBA12F22969B7F0061742C /* PopProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopProgressBar.swift; sourceTree = "<group>"; };
+		4DBBA14F2296A4ED0061742C /* TemplateFromH-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TemplateFromH-Bridging-Header.h"; sourceTree = "<group>"; };
 		4DD8F63E228EA09300FB8DE7 /* NSString+Judge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Judge.h"; sourceTree = "<group>"; };
 		4DD8F63F228EA09300FB8DE7 /* NSString+Judge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Judge.m"; sourceTree = "<group>"; };
 		4DD8F643228EA7D200FB8DE7 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		4DD8F644228EA7D200FB8DE7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4DD8F6482292578600FB8DE7 /* JHScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHScrollView.h; sourceTree = "<group>"; };
+		4DD8F6492292578600FB8DE7 /* JHScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHScrollView.m; sourceTree = "<group>"; };
+		4DD8F64B2292583700FB8DE7 /* JHScrollViewFlowLayou.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHScrollViewFlowLayou.h; sourceTree = "<group>"; };
+		4DD8F64C2292583700FB8DE7 /* JHScrollViewFlowLayou.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHScrollViewFlowLayou.m; sourceTree = "<group>"; };
+		4DD8F64E2292588900FB8DE7 /* JHCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHCollectionViewCell.h; sourceTree = "<group>"; };
+		4DD8F64F2292588900FB8DE7 /* JHCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHCollectionViewCell.m; sourceTree = "<group>"; };
+		4DD8F65422925BE500FB8DE7 /* UIImage+CaptureScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CaptureScreen.h"; sourceTree = "<group>"; };
+		4DD8F65522925BE500FB8DE7 /* UIImage+CaptureScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CaptureScreen.m"; sourceTree = "<group>"; };
+		4DD8F65822925D4300FB8DE7 /* UIImagePickerController+ZY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImagePickerController+ZY.h"; sourceTree = "<group>"; };
+		4DD8F65922925D4300FB8DE7 /* ZYImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYImagePicker.h; sourceTree = "<group>"; };
+		4DD8F65A22925D4300FB8DE7 /* ZYBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZYBundle.bundle; sourceTree = "<group>"; };
+		4DD8F65B22925D4300FB8DE7 /* ZYFormData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFormData.h; sourceTree = "<group>"; };
+		4DD8F65C22925D4300FB8DE7 /* ZYCropImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCropImageController.h; sourceTree = "<group>"; };
+		4DD8F65D22925D4300FB8DE7 /* ZYLocalizableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLocalizableManager.h; sourceTree = "<group>"; };
+		4DD8F65E22925D4300FB8DE7 /* ZYImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYImagePicker.m; sourceTree = "<group>"; };
+		4DD8F65F22925D4300FB8DE7 /* UIImagePickerController+ZY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImagePickerController+ZY.m"; sourceTree = "<group>"; };
+		4DD8F66022925D4300FB8DE7 /* ZYFormData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYFormData.m; sourceTree = "<group>"; };
+		4DD8F66122925D4300FB8DE7 /* ZYCropImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCropImageController.m; sourceTree = "<group>"; };
+		4DD8F66222925D4300FB8DE7 /* ZYLocalizableManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLocalizableManager.m; sourceTree = "<group>"; };
 		E10324347D0AA12ADC753744 /* Pods-TemplateFromH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemplateFromH.debug.xcconfig"; path = "Target Support Files/Pods-TemplateFromH/Pods-TemplateFromH.debug.xcconfig"; sourceTree = "<group>"; };
 		E76724EFC6D1473A87BAFE11 /* libPods-TemplateFromH.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TemplateFromH.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -102,6 +199,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBBA110229692D30061742C /* MediaPlayer.framework in Frameworks */,
 				4E0B71926C460FC6112DDE0A /* libPods-TemplateFromH.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,6 +224,7 @@
 		01473C924FAD3A4C118B7FBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DBBA10F229692D30061742C /* MediaPlayer.framework */,
 				E76724EFC6D1473A87BAFE11 /* libPods-TemplateFromH.a */,
 			);
 			name = Frameworks;
@@ -156,11 +255,12 @@
 		4D073298228D4C6A008DCADC /* TemplateFromH */ = {
 			isa = PBXGroup;
 			children = (
+				4DBBA11122969B210061742C /* swiftClass(swift代码) */,
+				4DBBA1082296922D0061742C /* ThirdLib(第三方库) */,
+				4DBBA1002293F7690061742C /* Framework(自封装类) */,
 				4D0732E3228D6AFF008DCADC /* TabBar(导航栏) */,
 				4D0732E2228D6A7A008DCADC /* Base(基类) */,
 				4D0732D7228D67E9008DCADC /* Expand(扩展) */,
-				4D0732D2228D66A5008DCADC /* ThirdLib(第三方库) */,
-				4D0732D3228D66C2008DCADC /* Framework(自封装类) */,
 				4D0732D6228D6701008DCADC /* FunctionModule(功能模块) */,
 				4D073299228D4C6A008DCADC /* AppDelegate.h */,
 				4D07329A228D4C6A008DCADC /* AppDelegate.m */,
@@ -201,20 +301,6 @@
 			path = CoreDataStack;
 			sourceTree = "<group>";
 		};
-		4D0732D2228D66A5008DCADC /* ThirdLib(第三方库) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "ThirdLib(第三方库)";
-			sourceTree = "<group>";
-		};
-		4D0732D3228D66C2008DCADC /* Framework(自封装类) */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Framework(自封装类)";
-			sourceTree = "<group>";
-		};
 		4D0732D6228D6701008DCADC /* FunctionModule(功能模块) */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,8 +334,9 @@
 		4D0732D9228D687C008DCADC /* Macros(宏) */ = {
 			isa = PBXGroup;
 			children = (
-				4D0732F5228D7344008DCADC /* AppHeader.h */,
 				4D0732F6228D73E7008DCADC /* AppDefine.h */,
+				4D0732F5228D7344008DCADC /* AppHeader.h */,
+				4DBBA14F2296A4ED0061742C /* TemplateFromH-Bridging-Header.h */,
 			);
 			path = "Macros(宏)";
 			sourceTree = "<group>";
@@ -257,6 +344,8 @@
 		4D0732DA228D6894008DCADC /* Tool(工具类) */ = {
 			isa = PBXGroup;
 			children = (
+				4DD8F6472292572900FB8DE7 /* Banner(轮播图) */,
+				4DD8F65722925D4300FB8DE7 /* ZYImagePicker(头像编辑) */,
 			);
 			path = "Tool(工具类)";
 			sourceTree = "<group>";
@@ -279,6 +368,8 @@
 				4D073306228E651A008DCADC /* UIView+Location.m */,
 				4DD8F63E228EA09300FB8DE7 /* NSString+Judge.h */,
 				4DD8F63F228EA09300FB8DE7 /* NSString+Judge.m */,
+				4DD8F65422925BE500FB8DE7 /* UIImage+CaptureScreen.h */,
+				4DD8F65522925BE500FB8DE7 /* UIImage+CaptureScreen.m */,
 			);
 			path = "Category(分类&扩展)";
 			sourceTree = "<group>";
@@ -362,6 +453,93 @@
 			path = TabBarItem;
 			sourceTree = "<group>";
 		};
+		4DBBA1002293F7690061742C /* Framework(自封装类) */ = {
+			isa = PBXGroup;
+			children = (
+				4DBBA1042293F89A0061742C /* AccountLoginManager.h */,
+				4DBBA1052293F89A0061742C /* AccountLoginManager.m */,
+				4DBBA1012293F7760061742C /* LoginView.h */,
+				4DBBA1022293F7760061742C /* LoginView.m */,
+			);
+			path = "Framework(自封装类)";
+			sourceTree = "<group>";
+		};
+		4DBBA1082296922D0061742C /* ThirdLib(第三方库) */ = {
+			isa = PBXGroup;
+			children = (
+				4DBBA109229692630061742C /* 开场视频动画 */,
+			);
+			path = "ThirdLib(第三方库)";
+			sourceTree = "<group>";
+		};
+		4DBBA109229692630061742C /* 开场视频动画 */ = {
+			isa = PBXGroup;
+			children = (
+				4DBBA10B229692830061742C /* qidong.mp4 */,
+				4DBBA10C229692840061742C /* WSMovieController.h */,
+				4DBBA10A229692830061742C /* WSMovieController.m */,
+			);
+			path = "开场视频动画";
+			sourceTree = "<group>";
+		};
+		4DBBA11122969B210061742C /* swiftClass(swift代码) */ = {
+			isa = PBXGroup;
+			children = (
+				4DBBA11222969B7F0061742C /* TBCalendar */,
+				4DBBA11922969B7F0061742C /* ZHFSubToolBox */,
+			);
+			path = "swiftClass(swift代码)";
+			sourceTree = "<group>";
+		};
+		4DBBA11222969B7F0061742C /* TBCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				4DBBA11322969B7F0061742C /* TBCalendar.swift */,
+				4DBBA11422969B7F0061742C /* Foundation+Extension.swift */,
+				4DBBA11522969B7F0061742C /* TBCalendarDateCell.swift */,
+				4DBBA11622969B7F0061742C /* Const.swift */,
+				4DBBA11722969B7F0061742C /* TBCalendarAppearStyle.swift */,
+				4DBBA11822969B7F0061742C /* TBCalendarHeaderView.swift */,
+			);
+			path = TBCalendar;
+			sourceTree = "<group>";
+		};
+		4DBBA11922969B7F0061742C /* ZHFSubToolBox */ = {
+			isa = PBXGroup;
+			children = (
+				4DBBA11A22969B7F0061742C /* MyNSString.swift */,
+				4DBBA11B22969B7F0061742C /* PopTextView.swift */,
+				4DBBA11C22969B7F0061742C /* PopRadioButtonView.swift */,
+				4DBBA11D22969B7F0061742C /* SlideView.swift */,
+				4DBBA11E22969B7F0061742C /* ZHFCalendarView.swift */,
+				4DBBA11F22969B7F0061742C /* UpDownView.swift */,
+				4DBBA12022969B7F0061742C /* PopTopOrBottomOutView.swift */,
+				4DBBA12122969B7F0061742C /* ZHFColor.swift */,
+				4DBBA12222969B7F0061742C /* PopImageView.swift */,
+				4DBBA12322969B7F0061742C /* PopGifOpenBox */,
+				4DBBA12822969B7F0061742C /* PopDiseaseView.swift */,
+				4DBBA12922969B7F0061742C /* SlideWhiteViewSubView.swift */,
+				4DBBA12A22969B7F0061742C /* PopSmallChangeBigFatherView.swift */,
+				4DBBA12B22969B7F0061742C /* PopSomeColorView.swift */,
+				4DBBA12C22969B7F0061742C /* ZHFAlertControllerTool.swift */,
+				4DBBA12D22969B7F0061742C /* PopCheckboxButtonView.swift */,
+				4DBBA12E22969B7F0061742C /* CalendarView.swift */,
+				4DBBA12F22969B7F0061742C /* PopProgressBar.swift */,
+			);
+			path = ZHFSubToolBox;
+			sourceTree = "<group>";
+		};
+		4DBBA12322969B7F0061742C /* PopGifOpenBox */ = {
+			isa = PBXGroup;
+			children = (
+				4DBBA12422969B7F0061742C /* PopBackGroundView.swift */,
+				4DBBA12522969B7F0061742C /* open_boxA.gif */,
+				4DBBA12622969B7F0061742C /* OpenBoxView.swift */,
+				4DBBA12722969B7F0061742C /* PopAwayOpenBackGroundView.swift */,
+			);
+			path = PopGifOpenBox;
+			sourceTree = "<group>";
+		};
 		4DD8F641228EA7A200FB8DE7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -380,6 +558,37 @@
 				4DD8F644228EA7D200FB8DE7 /* DetailViewController.m */,
 			);
 			path = Detail;
+			sourceTree = "<group>";
+		};
+		4DD8F6472292572900FB8DE7 /* Banner(轮播图) */ = {
+			isa = PBXGroup;
+			children = (
+				4DD8F6482292578600FB8DE7 /* JHScrollView.h */,
+				4DD8F6492292578600FB8DE7 /* JHScrollView.m */,
+				4DD8F64B2292583700FB8DE7 /* JHScrollViewFlowLayou.h */,
+				4DD8F64C2292583700FB8DE7 /* JHScrollViewFlowLayou.m */,
+				4DD8F64E2292588900FB8DE7 /* JHCollectionViewCell.h */,
+				4DD8F64F2292588900FB8DE7 /* JHCollectionViewCell.m */,
+			);
+			path = "Banner(轮播图)";
+			sourceTree = "<group>";
+		};
+		4DD8F65722925D4300FB8DE7 /* ZYImagePicker(头像编辑) */ = {
+			isa = PBXGroup;
+			children = (
+				4DD8F65B22925D4300FB8DE7 /* ZYFormData.h */,
+				4DD8F66022925D4300FB8DE7 /* ZYFormData.m */,
+				4DD8F65922925D4300FB8DE7 /* ZYImagePicker.h */,
+				4DD8F65E22925D4300FB8DE7 /* ZYImagePicker.m */,
+				4DD8F65822925D4300FB8DE7 /* UIImagePickerController+ZY.h */,
+				4DD8F65F22925D4300FB8DE7 /* UIImagePickerController+ZY.m */,
+				4DD8F65C22925D4300FB8DE7 /* ZYCropImageController.h */,
+				4DD8F66122925D4300FB8DE7 /* ZYCropImageController.m */,
+				4DD8F65D22925D4300FB8DE7 /* ZYLocalizableManager.h */,
+				4DD8F66222925D4300FB8DE7 /* ZYLocalizableManager.m */,
+				4DD8F65A22925D4300FB8DE7 /* ZYBundle.bundle */,
+			);
+			path = "ZYImagePicker(头像编辑)";
 			sourceTree = "<group>";
 		};
 		C3D029310F5358AC31B1BEA3 /* Pods */ = {
@@ -402,6 +611,7 @@
 				4D073292228D4C6A008DCADC /* Sources */,
 				4D073293228D4C6A008DCADC /* Frameworks */,
 				4D073294228D4C6A008DCADC /* Resources */,
+				2203BCCE87040FDF2170B760 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -495,9 +705,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD8F66322925D4300FB8DE7 /* ZYBundle.bundle in Resources */,
 				4D0732A9228D4C6C008DCADC /* LaunchScreen.storyboard in Resources */,
 				4D0732A6228D4C6C008DCADC /* Assets.xcassets in Resources */,
 				4D0732A1228D4C6A008DCADC /* Main.storyboard in Resources */,
+				4DBBA14022969B7F0061742C /* open_boxA.gif in Resources */,
+				4DBBA10E229692840061742C /* qidong.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +731,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2203BCCE87040FDF2170B760 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TemplateFromH/Pods-TemplateFromH-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TemplateFromH/Pods-TemplateFromH-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TemplateFromH/Pods-TemplateFromH-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F6E36D1893F5A9CC7DAE6D15 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -547,21 +777,59 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DBBA14222969B7F0061742C /* PopAwayOpenBackGroundView.swift in Sources */,
+				4DBBA1062293F89A0061742C /* AccountLoginManager.m in Sources */,
+				4DD8F66422925D4300FB8DE7 /* ZYImagePicker.m in Sources */,
+				4DBBA14722969B7F0061742C /* ZHFAlertControllerTool.swift in Sources */,
 				4D0732F1228D72B1008DCADC /* AfterViewController.m in Sources */,
+				4DBBA13722969B7F0061742C /* PopTextView.swift in Sources */,
+				4DBBA14522969B7F0061742C /* PopSmallChangeBigFatherView.swift in Sources */,
+				4DBBA13F22969B7F0061742C /* PopBackGroundView.swift in Sources */,
+				4DBBA14A22969B7F0061742C /* PopProgressBar.swift in Sources */,
+				4DBBA13922969B7F0061742C /* SlideView.swift in Sources */,
+				4DBBA13022969B7F0061742C /* TBCalendar.swift in Sources */,
+				4DBBA14422969B7F0061742C /* SlideWhiteViewSubView.swift in Sources */,
+				4DD8F66522925D4300FB8DE7 /* UIImagePickerController+ZY.m in Sources */,
+				4DBBA10D229692840061742C /* WSMovieController.m in Sources */,
+				4DBBA13422969B7F0061742C /* TBCalendarAppearStyle.swift in Sources */,
+				4DBBA13E22969B7F0061742C /* PopImageView.swift in Sources */,
 				4D0732F4228D72F8008DCADC /* RootTabBarController.m in Sources */,
+				4DD8F65622925BE500FB8DE7 /* UIImage+CaptureScreen.m in Sources */,
+				4DBBA13B22969B7F0061742C /* UpDownView.swift in Sources */,
+				4DBBA13822969B7F0061742C /* PopRadioButtonView.swift in Sources */,
+				4DBBA13222969B7F0061742C /* TBCalendarDateCell.swift in Sources */,
 				4D0732D1228D4D7B008DCADC /* CoreDataStack.m in Sources */,
 				4DD8F645228EA7D200FB8DE7 /* DetailViewController.m in Sources */,
 				4D073303228E5B47008DCADC /* CustomTabBar.m in Sources */,
+				4DBBA14922969B7F0061742C /* CalendarView.swift in Sources */,
+				4DBBA14122969B7F0061742C /* OpenBoxView.swift in Sources */,
 				4D0732FD228D75F9008DCADC /* RootNavigationController.m in Sources */,
+				4DBBA13322969B7F0061742C /* Const.swift in Sources */,
+				4DD8F66822925D4300FB8DE7 /* ZYLocalizableManager.m in Sources */,
+				4DBBA14822969B7F0061742C /* PopCheckboxButtonView.swift in Sources */,
 				4D073307228E651A008DCADC /* UIView+Location.m in Sources */,
 				4D0732EE228D72A5008DCADC /* NowViewController.m in Sources */,
+				4DBBA13622969B7F0061742C /* MyNSString.swift in Sources */,
 				4D0732EB228D7293008DCADC /* EverViewController.m in Sources */,
+				4DD8F66622925D4300FB8DE7 /* ZYFormData.m in Sources */,
 				4D0732E8228D7281008DCADC /* BaseViewController.m in Sources */,
+				4DBBA13C22969B7F0061742C /* PopTopOrBottomOutView.swift in Sources */,
+				4DBBA14322969B7F0061742C /* PopDiseaseView.swift in Sources */,
+				4DD8F6502292588900FB8DE7 /* JHCollectionViewCell.m in Sources */,
 				4D0732A4228D4C6A008DCADC /* TemplateFromH.xcdatamodeld in Sources */,
+				4DBBA13122969B7F0061742C /* Foundation+Extension.swift in Sources */,
+				4DBBA13D22969B7F0061742C /* ZHFColor.swift in Sources */,
+				4DBBA14622969B7F0061742C /* PopSomeColorView.swift in Sources */,
+				4DD8F66722925D4300FB8DE7 /* ZYCropImageController.m in Sources */,
 				4DD8F640228EA09300FB8DE7 /* NSString+Judge.m in Sources */,
+				4DD8F64D2292583700FB8DE7 /* JHScrollViewFlowLayou.m in Sources */,
+				4DBBA13522969B7F0061742C /* TBCalendarHeaderView.swift in Sources */,
+				4DBBA13A22969B7F0061742C /* ZHFCalendarView.swift in Sources */,
+				4DD8F64A2292578600FB8DE7 /* JHScrollView.m in Sources */,
 				4D073300228E4736008DCADC /* NSNumber+AutoFit.m in Sources */,
 				4D0732FA228D746B008DCADC /* UIColor+Hex.m in Sources */,
 				4D0732AC228D4C6C008DCADC /* main.m in Sources */,
+				4DBBA1032293F7760061742C /* LoginView.m in Sources */,
 				4D07329B228D4C6A008DCADC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -652,6 +920,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -711,6 +980,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -735,6 +1005,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = J852A2SNP2;
 				INFOPLIST_FILE = TemplateFromH/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -743,6 +1014,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.January.TemplateFromH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/shihao/Documents/GitHub库/TemplateFromH/TemplateFromH/Expand(扩展)/Macros(宏)/TemplateFromH-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -753,6 +1026,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = J852A2SNP2;
 				INFOPLIST_FILE = TemplateFromH/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -761,6 +1035,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.January.TemplateFromH;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/shihao/Documents/GitHub库/TemplateFromH/TemplateFromH/Expand(扩展)/Macros(宏)/TemplateFromH-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -768,6 +1044,7 @@
 		4D0732C9228D4C6C008DCADC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J852A2SNP2;
@@ -787,6 +1064,7 @@
 		4D0732CA228D4C6C008DCADC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J852A2SNP2;
@@ -806,6 +1084,7 @@
 		4D0732CC228D4C6C008DCADC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J852A2SNP2;
 				INFOPLIST_FILE = TemplateFromHUITests/Info.plist;
@@ -824,6 +1103,7 @@
 		4D0732CD228D4C6C008DCADC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J852A2SNP2;
 				INFOPLIST_FILE = TemplateFromHUITests/Info.plist;

@@ -100,7 +100,7 @@
     //曾经
     RootNavigationController *everVC = [self addChildViewController:@"EverViewController" title:@"曾经" imageName:@"First_icon_uncheck" selectedImageName:@"First_icon_selected"];
     
-    //现在 站位
+    //现在 占位
     RootNavigationController *nowVC = [self addChildViewController:@"NowViewController" title:@"" imageName:@"1" selectedImageName:@"1"];
     
     //以后
